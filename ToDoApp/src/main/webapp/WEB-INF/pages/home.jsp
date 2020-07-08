@@ -75,7 +75,7 @@
 								<h5 class="card-title" ><c:out value="${t.crimeTitle }"></c:out></h5>
 								<p class="card-text"><c:out value="${t.crimeContent }"></c:out></p>
 								<a href="#" class="btn btn-primary">Edit</a>    
-								<a href="/CrimeManagerWebApplication/delete/${lo.index }" class="btn btn-primary">Delete</a>
+								<a href="/delete/${lo.index }" class="btn btn-primary">Delete</a>
 								<p></p>
 								<h6 class="card-footer" >Created At - ${t.date }</h6>
 							</div>
